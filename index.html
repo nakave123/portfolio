@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata of the Webpage -->
+  <!-- Character-set Metadata -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Viewport Metadata -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Description Metadata-->
+  <meta name="description" content="Portfolio Website" />
+  <!-- Author Metadata -->
+  <meta name="author" content="Pratik Nitin Nakave" />
+  <!-- Webpage Logo -->
+  <link rel="shortcut icon" href="./assets/img/portfolio.png" />
+  <!-- Webpage Title -->
+  <title>Pratik Nitin Nakave</title>
+
+  <!-- Import CSS: Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div id="particles-js">
+    <div class="header">
+      <h1>
+        <span class="site-title">Pratik Nitin Nakave</span>
+        <span class="site-description">Programmer • Problem Solver • Software Engineer</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/pratik-nakave/">
+          <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Github Profile" target="_blank" href="https://github.com/nakave123">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        <!-- <a aria-label="My Résumé" target="_blank" href="https://www.PratikvNakave.com/resume.html">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a> -->
+        <a aria-label="Send Email" href="mailto:nakave.pr@northeastern.edu" target="_blank"><i
+            class="icon fa fa-envelope"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link badge rounded-pill bg-primary" href="#about" data-scroll>About Me</a>
+        <a class="link badge rounded-pill bg-primary" href="#education" data-scroll>Education</a>
+        <a class="link badge rounded-pill bg-primary" href="#projects" data-scroll>Projects</a>
+        <a class="link badge rounded-pill bg-primary" href="#experience" data-scroll>Experience</a>
+        <a class="link badge rounded-pill bg-primary" href="#certifications" data-scroll>Certifications</a>
+      </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  </div>
+
+  <!-- Nav-bar -->
+  <nav id="navbar-example2" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Up</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link" href="#about" data-scroll>About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education" data-scroll>Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" data-scroll>Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience" data-scroll>Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications" data-scroll>Certifications</a>
+          </li>
+        </ul>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight" aria-current="page">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- offcanvas -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Contact Me</h5>
+      <!-- Close Button -->
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <strong>Email:</strong> <a href="mailto:nakave.pr@northeastern.edu ">nakave.pr@northeastern.edu </a><br>
+      <strong>Mobile:</strong> <a href="tel:+14252089998">+1(425)-208-9998</a>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <!-- User Introduction-->
+    <div class="user-details">
+      <h1>My Story</h1>
+      <picture>
+        <source type="image/png" srcset="./assets/img/png/pratik.png" alt="Professional Me" width="20%"
+          style="border-radius: 50%" />
+        <img src="./assets/img/png/pratik.png" alt="Professional Me" width="20%" style="border-radius: 50%" />
+      </picture>
+      <p>
+        A graduate student pursuing a Master of Science - MS in Software Engineering Systems at Northeastern University.
+        My background is in the (Research and Development) computer software industry as an experienced Software
+        Engineer. I am an expert in Java, SQL, Data Structures, Algorithms, JavaScript, C++ and C. Beginner in the
+        domain of Cloud technology such as Docker and Kubernetes.
+        Interested in Software Engineer or Full stack development role.
+      </p>
+    </div>
+
+    <!-- User Specifics -->
+    <div class="user">
+      <!-- Technology Stack #1: Languages -->
+      <div class="tech">
+        <h2>Languages</h2>
+        <i class="devicon-java-plain-wordmark colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-cplusplus-plain colored"></i>
+        <i class="devicon-python-plain colored"></i>
+        <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+      </div>
+
+      <!-- Technology Stack #2: Front-End -->
+      <div class="tech">
+        <h2>Front-End</h2>
+        <i class="devicon-react-original colored"></i>
+        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <p>My preferred technologies for front-end web development and component design.</p>
+      </div>
+
+      <!-- Technology Stack #3: Back-End -->
+      <div class="tech">
+        <h2>Back-End</h2>
+        <i class="devicon-nodejs-plain colored"></i>
+        <i class="devicon-express-original-wordmark colored"></i>
+        <i class="devicon-mongodb-plain-wordmark colored"></i>
+        <i class="devicon-postgresql-plain-wordmark colored"></i>
+        <p>My preferred technologies for back-end web programming and database architecture.</p>
+      </div>
+
+      <!-- Technology Stack #4: Tools -->
+      <div class="tech">
+        <h2>Tools</h2>
+        <i class="devicon-git-plain-wordmark colored"></i>
+        <i class="devicon-visualstudio-plain colored"></i>
+        <i class="devicon-github-plain-wordmark colored"></i>
+        <i class="devicon-docker-plain-wordmark colored"></i>
+        <p>My favorite tools for version control, code editing, and container orchestration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <div class="user-details">
+      <h1>Education Details</h1>
+    </div>
+
+    <div class="user-education">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img height="250px" width="250px" src="./assets/img/png/NEU.png" class="card-img-top" alt="NEU">
+            <div class="card-body">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h3 class="card-title">Northeastern University</h3>
+              <p class="card-text">MS in Software Engineering Systems (2021-2023)</p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-muted">2021-2023</small>
+            </div> -->
+          </div>
+        </div>
+        <br>
+        <div class="col">
+          <div class="card h-100">
+            <img height="250px" width="250px" src="./assets/img/png/SPPU.png" class="card-img-top" alt="SPPU">
+            <div class="card-body">
+              <h3 class="card-title">Savitribai Phule Pune University</h3>
+              <p class="card-text">BE in Computer Engineering (2014-2018)</p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-muted">2014-2018</small>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="user-details">
+      <h1>Featured Projects</h1>
+    </div>
+
+    <!-- User Project #1: Personal Résumé Website -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <source type="image/png" srcset="./assets/img/png/Portfolio.png" alt="Personal Website" />
+          <img alt="Personal Website" src="./assets/img/png/Portfolio.png" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Personal Website</h3>
+        <div>
+          <img height="32" width="32" src="https://angular.io/assets/images/logos/angular/angular_solidBlack.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg"
+            style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)" />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+        </div>
+        <p style="text-align: justify">
+          I developed and designed a website using AngularJS and Bootstrap, uploaded on Github Pages, to showcase my web
+          presence, story, work experience, education, projects, and achievements in an interactive and
+          visually-appealing format.
+        </p>
+        <!-- <a class="project-link" target="_blank" href="https://www.PratikvNakave.com/">Check it out!</a> -->
+      </div>
+    </div>
+
+    <!-- User Project #2: Summer 2020 Project -->
+    <div class="user-projects">
+      <div class="images-left">
+        <picture>
+          <source type="image/png" srcset="./assets/img/png/Currency Conversion.png" alt="Currency Conversion" />
+          <img alt="Currency Conversion" src="./assets/img/png/Currency Conversion.png" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center">
+        <h3>Currency Conversion</h3>
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+          style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+        <p style="text-align: justify">
+          I created a web application using microservice architecture to convert Currency to its equivalent amount.
+          I have used Java for the back-end development and Eureka Server for service registry and discovery. All
+          the data is stored using in-memory datastore.
+        </p>
+        <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Check it out!"
+          class="btn btn-light">
+          <a class="project-link" target="_blank" href="https://github.com/nakave123/Microservices">Check it out!</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- User Project #3: Day Care -->
+    <div class="user-projects">
+      <div class="images-right">
+        <picture>
+          <source type="image/png" srcset="./assets/img/webp/Day Care.png" alt="Day Care" />
+          <img alt="Day Care" src="./assets/img/png/Day Care.png" />
+        </picture>
+      </div>
+      <div class="contents" style="text-align: center">
+        <h3>Day Care</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/java.svg"
+            style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)" />
+        </div>
+        <p style="text-align: justify">
+          Designed and developed a system that creates alerts and tracks the immunization records for kids base on
+          state regulations. Devised entire back-end using Java core concepts, design pattern and implemented stream
+          apis with lambda functions. All the front-end is developed with Java Swing.
+        </p>
+        <button type="button" class="btn btn-light">
+          <a class="project-link" target="_blank" href="https://github.com/nakave123/Day-Care">
+            Check it out!
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <!-- Use Project #4: Intelligent Hiring System -->
+    <div class="user-projects">
+      <div class="images-left">
+        <picture>
+          <source type="image/png" srcset="./assets/img/png/Intelligent Hiring System.png"
+            alt="Intelligent Hiring System" />
+          <img alt="Intelligent Hiring System" src="./assets/img/png/Intelligent Hiring System.png" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center">
+        <h3>Intelligent Hiring System</h3>
+        <div>
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/java.svg"
+            style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)" />
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/python.svg"
+            style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)" />
+        </div>
+        <p style="text-align: justify">
+          Developed a smart system that helps recruiters in hiring process and minimizes manual intervention. Used
+          Machine learning and Natural Language processing to extract the resumes and predict the best profile for
+          posted job description. The design of algorithms and implementation in done in Python, Java.
+        </p>
+        <button type="button" class="btn btn-light">
+          <a class="project-link" target="_blank" href="https://github.com/nakave123/Intelligent-Hiring-System">
+            Check it out!
+          </a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section id="experience">
+    <div class="user-details">
+      <h1>Work Experience</h1>
+    </div>
+
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <h3>Software Engineer</h3>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>TIBCO Software:</strong>
+            <p>
+              1. Devised entire monitoring tool named Application Monitor from end to end utilizing Java for backend
+              code and AngularJS for GUI <br>
+              2. Optimized nested database queries in customer environment to improve performance by 10% <br>
+              3. Integrated and enhanced efficiency with REST APIs for applications running on Docker and Kubernetes
+              platforms by 15% <br>
+              4. Collaborated in Scrum Agile methodology to construct and maintain product quality <br>
+              5. Debugged and modified java code to increase efficiency and attained optimization by5% <br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h3>Junior Developer</h3>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>TIBCO Software:</strong>
+            <p>
+              1. Improved API response time with modifying backend code to generate Swagger by 10% <br>
+              2. Developed and tested front-end code using JavaScript for TIBCO-ActiveMatrix Service Grid
+              Administrator <br>
+              3. Implemented features and enhancements with help of java backend code for TIBCO - SOA Development
+              Studio <br>
+              4. Delivered resolutions on blocking and critical issues to achieve product stability by 10% <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div class="user-details">
+      <h1>Certifications</h1>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img height="350px" src="/assets/img/png/Grey_Background.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: black;">Masters Degree</h5>
+            <p style="color: black;">Northeastern University - 2023 Class</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img height="350px" src="/assets/img/png/Grey_Background.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: black;">Bachelors Degree</h5>
+            <p style="color: black;">Savitribai Phule Pune University - 2018 Class</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <p>&copy; Pratik Nitin Nakave, 2022</p>
+  </footer>
+
+  <!-- Import JS: Particles Theme -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- Import JS: Sweet Scroll -->
+  <script src="./assets/js/sweet-scroll.min.js"></script>
+  <!-- Import JS: Main Script -->
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
